@@ -44,6 +44,7 @@ public class LargeNumberAdditionController {
 
     @GetMapping("/ping")
     public String ping() {
+        logger.info("Got ping request, returning UP.");
         return "UP";
     }
 }
